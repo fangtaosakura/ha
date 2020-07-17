@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.5.RELEASE</version>
+    </parent>
+    <groupId>com.jieancai</groupId>
+    <artifactId>top</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>top</name>
+
+    <packaging>pom</packaging>
+    <modules>
+        <module>administration</module>
+        <module>index</module>
+        <module>purchasers</module>
+        <module>supplier</module>
+    </modules>
+
+<!--    <distributionManagement>-->
+<!--        <repository>-->
+<!--            <id>td-releases</id>-->
+<!--            <url>http://vpn.takedata.cn:8081/repository/maven-releases/</url>-->
+<!--        </repository>-->
+<!--        <snapshotRepository>-->
+<!--            <id>td-snapshots</id>-->
+<!--            <url>http://vpn.takedata.cn:8081/repository/maven-snapshots/</url>-->
+<!--        </snapshotRepository>-->
+<!--    </distributionManagement>-->
+
+<!--    <repositories>-->
+<!--        <repository>-->
+<!--            <id>td-public</id>-->
+<!--            <url>http://vpn.takedata.cn:8081/repository/maven-public/</url>-->
+<!--            <snapshots><enabled>false</enabled></snapshots>-->
+<!--            <releases><enabled>true</enabled></releases>-->
+<!--        </repository>-->
+<!--        <repository>-->
+<!--            <id>td-snapshots</id>-->
+<!--            <url>http://vpn.takedata.cn:8081/repository/maven-snapshots/</url>-->
+<!--            <snapshots><enabled>true</enabled></snapshots>-->
+<!--            <releases><enabled>false</enabled></releases>-->
+<!--        </repository>-->
+<!--    </repositories>-->
+</project>
